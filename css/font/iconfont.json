@@ -1,0 +1,58 @@
+{
+  "id": "2065586",
+  "name": "迪兆智能",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15838562",
+      "name": "arrow-up-bold",
+      "font_class": "arrow-up-bold",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "15838564",
+      "name": "arrow-down-bold",
+      "font_class": "arrow-down-bold",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "15870073",
+      "name": "汉堡按钮",
+      "font_class": "hanbaoanniu1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "8945945",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "2785396",
+      "name": "长箭头",
+      "font_class": "changjiantou",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8304389",
+      "name": "长箭头",
+      "font_class": "changjiantou-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8574466",
+      "name": "箭头",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+@media (max-width: 1200px) {
+    .header {
+        .header-heart {
+            display: flex;
+            justify-content: space-between;
+            .home {
+                flex: auto;
+                justify-content: flex-end;
+                .nav {
+                    display: none;
+                }
+                .line {
+                    display: none;
+                }
+                .search {
+                    flex: .1;
+                }
+                .lang {
+                    flex: .2;
+                    padding: 0 20px;
+                    box-sizing: border-box;
+                }
+                .hamburger-btn {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1100px) {
+    // 内容
+    .index-main {
+        .main-css {
+            ul {
+                flex-wrap: wrap;
+                li {
+                    width: 48%;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+        .main-vue {
+            ul {
+                flex-wrap: wrap;
+                li {
+                    width: 100%;
+                    margin-bottom: 40px;
+                    .li-heart {
+                        padding-top: 10px;
+                        .public-see-more {
+                            padding: 20px 0;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    // 公共样式
+    .padding {
+        padding: 0 calc(180 / 1920 * 100%);
+        box-sizing: border-box;
+    }
+    body {
+        padding-top: 50px;
+    }
+    // 头部
+    .header {
+        height: 50px;
+        .header-heart {
+            .logo {
+                width: 48px;
+                height: 35px;
+                margin: 7px 10px 8px 0;
+            }
+            .home {
+                height: 50px;
+                .search {
+                    .search-img {
+                        width: 20px;
+                        height: 20px;
+                        margin: 10px auto;
+                    }
+                    .show {
+                        top: 40px;
+                        padding: 5px calc(180 / 1920 * 100%) 5px calc(180 / 1920 * 100% + 250px);
+                        box-sizing: border-box;
+                    }
+                    .search-show {
+                        top: 50px;
+                        z-index: 1;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .hamburger {
+            .ham {
+                li {
+                    .ham-show {
+                        a {
+                            padding: 0 calc(200 / 1920 * 100%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .index-main {
+        .banner {
+            width: 100%;
+            position: relative;
+            .swiper1 {
+                .slide-heart {
+                    width: 100%;
+                    height: calc(100vh - 50px);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    // 公共样式
+    .padding {
+        padding: 0 calc(90 / 1920 * 100%);
+        box-sizing: border-box;
+    }
+    // 头部
+    .header {
+        .header-heart {
+            .home {
+                height: 50px;
+                .search {
+                    .show {
+                        padding: 5px calc(90 / 1920 * 100%);
+                        box-sizing: border-box;
+                        height: 45px;
+                        input {
+                            height: 35px;
+                        }
+                        button {
+                            height: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        .hamburger {
+            .ham {
+                li {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+                .ham-show {
+                    a {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    // 主页内容
+    .index-main {
+        .banner {
+            .swiper-tab {
+                bottom: 10px;
+            }
+        }
+    }
+}

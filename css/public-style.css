@@ -1,0 +1,43 @@
+.padding {
+  padding: 0 calc(260 / 1920 * 100%);
+  box-sizing: border-box;
+}
+
+.public-title {
+  width: 480px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.public-title .t-line {
+  width: 120px;
+  height: 4px;
+  margin: 13px 0;
+}
+
+.public-title .t-line1 {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #0455DC);
+}
+
+.public-title .t-line2 {
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #0455DC);
+}
+
+.public-title .t-txt {
+  width: 120px;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+}
+
+.public-title .t-circle {
+  width: 8px;
+  height: 8px;
+  background-color: #0455DC;
+  border-radius: 50%;
+  margin: 11px 17px;
+}

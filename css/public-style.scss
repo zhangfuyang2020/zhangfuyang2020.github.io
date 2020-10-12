@@ -1,0 +1,43 @@
+// 版心宽度
+$width: calc(1400 / 1920 * 100%);
+// 全局颜色
+$color: #0455DC;
+//  rgb(4, 85, 220)
+.padding {
+    padding: 0 calc(260 / 1920 * 100%);
+    box-sizing: border-box;
+}
+// 公共样式
+.public-title {
+    width: 480px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    .t-line {
+        width: 120px;
+        height: 4px;
+        margin: 13px 0;
+    }
+    .t-line1 {
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), $color);
+    }
+    .t-line2 {
+        background-image: linear-gradient(to left, rgba(255, 0, 0, 0), $color);
+    }
+    .t-txt {
+        width: 120px;
+        line-height: 30px;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        color: #333;
+    }
+    .t-circle {
+        width: 8px;
+        height: 8px;
+        background-color: $color;
+        border-radius: 50%;
+        margin: 11px 17px;
+    }
+}
